@@ -1,0 +1,21 @@
+{
+    "name": "leroi/phpmqtt",
+    "description": "本项目仅对bluerhinos/phpmqtt支持PHP7.4以上版本进行修改",
+    "license": "BSD",
+    "type": "library",
+    "authors": [
+        {
+            "name": "LeroiLiu",
+            "email": "675667823@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leroi\\": "./"
+        }
+    }
+}
